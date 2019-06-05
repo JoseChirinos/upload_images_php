@@ -1,0 +1,40 @@
+#zoneCut{
+  position: relative;
+  /*width: 300px;
+  height: 300px;*/
+}
+.btn{
+position: relative;
+  margin: 50px 30px;
+  border: 0;
+  padding: 15px 86px;
+  background: #03A9F4;
+  border-radius: 7px;
+  color: #ffffff;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.plus{
+padding: 15px 0px;
+  display: inline-block;
+}
+.inputfile{
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+.inputfile + label{
+  width: 150px;
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 14px 32px;
+  margin: 0;
+}
